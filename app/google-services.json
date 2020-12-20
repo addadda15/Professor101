@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "766519337597",
+    "firebase_url": "https://professor101-1979d.firebaseio.com",
+    "project_id": "professor101-1979d",
+    "storage_bucket": "professor101-1979d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:766519337597:android:d3966a11d8fe408b5ac714",
+        "android_client_info": {
+          "package_name": "main.main.professor101"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "766519337597-a7h9439hic4b3g324oei6na4l48fnoqt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "main.main.professor101",
+            "certificate_hash": "a7b6be4eb22afd3f222b5c131f2e12fa4d1a0237"
+          }
+        },
+        {
+          "client_id": "766519337597-07ndtbfgr49k42fud31slkeb19g42ss5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8sEXtP_sfbFenMsAtZ3tWXw1a19oDZEg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "766519337597-07ndtbfgr49k42fud31slkeb19g42ss5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

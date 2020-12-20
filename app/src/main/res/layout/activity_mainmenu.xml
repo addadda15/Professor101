@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        tools:openDrawer="start">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#2F91FA">
+
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#00008577"
+                    android:minHeight="?attr/actionBarSize"
+                    android:theme="?attr/actionBarTheme"
+                    app:navigationIcon="@drawable/ic_menu" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MAIN MENU"
+                    android:textColor="@color/lightWhite"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/baloo"
+                    android:textAllCaps="true"
+                    android:layout_centerInParent="true"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/go101"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="@drawable/layout_bk1"
+                android:layout_margin="10dp"
+                android:layout_weight="5">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="IDEAL WORLD CUP"
+                    android:textSize="30sp"
+                    android:fontFamily="@font/baloo"
+                    android:textColor="#1A237E"
+                    android:padding="25dp"/>
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/img_101"
+                    android:layout_alignParentRight="true"/>
+                </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/layout_bk2"
+                android:id="@+id/go_Evaluate"
+                android:layout_weight="5">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/img_evaluate"
+                    android:layout_marginLeft="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PROFESSORS"
+                    android:textSize="30sp"
+                    android:fontFamily="@font/baloo"
+                    android:layout_alignParentRight="true"
+                    android:textColor="#311B92"
+                    android:padding="25dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/goRank"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="@drawable/layout_bk3"
+                android:layout_margin="10dp"
+                android:layout_weight="5">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="RANKING"
+                    android:textSize="30sp"
+                    android:fontFamily="@font/baloo"
+                    android:textColor="#33691E"
+                    android:padding="25dp"/>
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/img_rank"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="@drawable/layout_bk4"
+                android:layout_margin="10dp"
+                android:layout_weight="5"
+                android:id="@+id/go_MOP">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MAN OF PROFESSOR"
+                    android:layout_alignParentRight="true"
+                    android:textSize="30sp"
+                    android:fontFamily="@font/baloo"
+                    android:textColor="#E65100"
+                    android:padding="25dp"/>
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/img_pom"
+                    android:layout_alignParentLeft="true"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <com.google.android.material.navigation.NavigationView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/nav_view"
+            app:headerLayout="@layout/header"
+            app:menu="@menu/main_menu"
+            android:layout_gravity="start"
+            />
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:title="홈"
+            android:icon="@drawable/home_icon"/>
+        <item
+            android:id="@+id/it_101"
+            android:title="이상형 월드컵이란?"
+            android:icon="@drawable/ic_101"/>
+
+        <item
+            android:id="@+id/it_evaluate"
+            android:title="교수 평가란?"
+            android:icon="@drawable/ic_professorevaluate"/>
+        <item
+            android:id="@+id/it_rank"
+            android:title="랭킹이란?"
+            android:icon="@drawable/ic_rank"/>
+
+        <item
+            android:id="@+id/it_pom"
+            android:title="이달의 교수란?"
+            android:icon="@drawable/ic_pom"/>
+
+
+    </group>
+
+
+
+
+</menu>

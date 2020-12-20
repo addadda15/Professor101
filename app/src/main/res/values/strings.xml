@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">professor101</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="string_nav_101">컴퓨터공학과 교수 13명을 사용자의 선택으로 우승자를 뽑는 기능이다. 16강부터 진행하며 8강 4강 결승전 순으로 진행된다. 16강에서는 3명의 교수는 부전승으로 올라가며 그리고 우승자에게는 우승 점수가 부여되어 이달의 교수에 올라갈 영광의 기회가 주어진다.</string>
+    <string name="string_nav_pom">이상형 월드컵에서 우승점수가 가장 높은 교수를 확인할 수 있는 기능이다. 그리고 이상형 월드컵에서 몇번에 우승을 했는지도 알 수 있다.</string>
+    <string name="string_nav_evaluate">13명의 컴퓨터공학과 교수의 사진과 소개가 나와있고 슬라이드를 통해 다른 교수화면으로 넘어갈 수 있는 기능이다. 또한 하단의 댓글과 건의사항을 통해 의견을 남길 수 있다. 댓글에서는 별점을 부여할 수 있는데 이것은 랭킹에 영향을 미치게 된다.</string>
+    <string name="string_nav_rank">댓글의 평가 점수 순으로 나열하여 1등, 2등, 3등을 확인할 수 있는 기능이다. 그리고 해당 교수의 평균 댓글 평가 점수를 알 수 있다.</string>
+</resources>
